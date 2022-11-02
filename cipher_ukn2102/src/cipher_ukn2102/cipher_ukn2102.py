@@ -1,4 +1,4 @@
-def cipher_ukn2102(text, shift, encrypt=True):
+def cipher(text, shift, encrypt=True):
 	"""
 	Encrypt or decrypts a string based on shift value
 
