@@ -12,7 +12,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: "3.10"
+          python-version: "3.9"
 
       - name: Check-out repository
         uses: actions/checkout@v2
@@ -24,7 +24,7 @@ jobs:
         run: poetry install
 
       - name: Test with pytest
-        run: poetry run pytest tests/ --cov=cipher_ukn2102 --cov-report=xml
+        run: poetry run pytest tests/ --cov=cipher_2102 --cov-report=xml
 
       - name: Use Codecov to track coverage
         uses: codecov/codecov-action@v2
@@ -49,7 +49,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: "3.10"
+          python-version: "3.9"
 
       - name: Check-out repository
         uses: actions/checkout@v2
@@ -83,7 +83,7 @@ jobs:
             pip install \
             --index-url https://test.pypi.org/simple/ \
             --extra-index-url https://pypi.org/simple \
-            cipher_ukn2102
+            cipher_2102
 
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1

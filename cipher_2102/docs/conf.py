@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u"cipher_ukn2102"
+project = u"cipher_2102"
 copyright = u"2022, Usha Nimishakavi"
 author = u"Usha Nimishakavi"
 

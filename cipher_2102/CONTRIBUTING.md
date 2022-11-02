@@ -40,10 +40,10 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `cipher_ukn2102` for local development.
+Ready to contribute? Here's how to set up `cipher_2102` for local development.
 
-1. Download a copy of `cipher_ukn2102` locally.
-2. Install `cipher_ukn2102` using `poetry`:
+1. Download a copy of `cipher_2102` locally.
+2. Install `cipher_2102` using `poetry`:
 
     ```console
     $ poetry install
@@ -69,5 +69,5 @@ Before you submit a pull request, check that it meets these guidelines:
 
 ## Code of Conduct
 
-Please note that the `cipher_ukn2102` project is released with a
+Please note that the `cipher_2102` project is released with a
 Code of Conduct. By contributing to this project you agree to abide by its terms.
